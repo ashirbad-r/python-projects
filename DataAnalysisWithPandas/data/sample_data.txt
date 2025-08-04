@@ -1,0 +1,10 @@
+Name, Age, City
+Alice, 25, New York
+Bob, 30, Paris
+Charlie, 35, Tokyo
+# Open and read plain text
+with open('../data/sample_data.txt', 'r') as file:
+    content = file.read()
+
+print("📄 TXT File Content:")
+print(content)
